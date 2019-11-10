@@ -31,3 +31,11 @@ docker-compose up
 - Front is running on port 8080
 - Server is running on port 3000
 - Db is running on port 5432
+
+
+## Pending things
+
+- [ ] unit testing (decrease development time)
+- [ ] add redux (not necessary for the first version)
+- [ ] refactor database calls to avoid duplicated logic
+- [ ] using styled components instead of css (naming is hard)
