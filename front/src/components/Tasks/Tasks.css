@@ -1,0 +1,11 @@
+.Tasks {
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width: 480px) {
+    .Tasks {
+        margin: 20px auto;
+        max-width: 700px;
+    }
+}

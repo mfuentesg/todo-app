@@ -1,0 +1,20 @@
+.Task {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,.05);
+    padding: 10px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.Task-title {
+    margin: 0 0 5px;
+}
+
+.Task-description {
+    margin: 0 0 10px;
+}
+
+.Task-action {
+    margin-right: 5px;
+    display: inline-block;
+}
