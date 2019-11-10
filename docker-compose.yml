@@ -21,11 +21,12 @@ services:
       - ./front:/app
       - /app/node_modules/
   db:
-    image: postgres
+    image: postgres:12.0-alpine
     ports:
       - 5432:5432
     volumes:
       - ./db/:/docker-entrypoint-initdb.d/
+      - ./docker/postgres:/var/lib/postgresql/data
 
 volumes:
   data:
